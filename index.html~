@@ -54,6 +54,7 @@
                     <!-- menu prile quick info -->
 		    <br>
 		    <br>
+		    <br>
 		    
                     <div class="profile">
                         
@@ -144,8 +145,7 @@
                         <div class="title_left">
                             <h3>Ejercicios <small>  Desarrollo en HTML5, CSS y Javascript de Apps Web, Android, IOS... (6.ª ed.)</small></h3>
                         </div>
-
-                        
+			
                     </div>
                     <div class="clearfix"></div>
 
@@ -225,6 +225,8 @@
                                                         </p>
                                                     </div>
                                                 </li>
+<iframe src="https://www.sicoes.gob.bo/portal/contrataciones/operacion2.php" scrolling="no" width=1100 height=1000>Texto para cuando el navegador no conoce la etiqueta iframe</iframe>
+                        
                                                 
                                                 
                                             </ul>
@@ -292,6 +294,19 @@
     <!--<script src="js/echart/green.js"></script>-->
     
     <script>
+	var res;
+    	$.ajax({
+        	type: 'POST',
+        	url: 'https://www.sicoes.gob.bo/portal/contrataciones/operacion2.php',
+        	data: {opetpo: 'convNacional', tpoope:'Simple', time: 1476457909469},
+        	dataType: "json",
+        	async: false,
+        	success: function (data) {
+            		res = data;
+console.log(res);
+        	}
+    	});
+	
        // var myChart9 = echarts.init(document.getElementById('mainb'), theme);
         //myChart9.setOption({
             //title: {

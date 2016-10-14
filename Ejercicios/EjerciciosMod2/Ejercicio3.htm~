@@ -1,0 +1,83 @@
+<!DOCTYPE html><html>
+<head>
+<title>Ejercicio</title>
+<meta charset="UTF-8">
+<style>
+
+#marco {
+    background-color: black;
+    padding: 10px;
+}
+
+#contenedor {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-wrap: wrap;
+    flex-wrap:wrap;
+}
+
+.vertical {
+  padding:3px;
+  background-color:black;
+  width:300px;
+  height:400px;
+}
+.vertical1 {
+  padding:3px;
+  background-color:black;
+  width:600px;
+  height:400px;
+}
+
+.horizontal {
+  background-color:white;
+  width:300px;
+  height:196px;
+}
+.horizontalI {
+  border:1px solid white;
+  background-color:white;
+  width:300px;
+  height:196px;
+}
+
+</style>
+</head>
+
+<body>
+<h1>Ejercicio</h1>
+
+<div  id='marco'>
+  <div id="contenedor">
+<div class="vertical1" >
+   <style>
+        picture {display: block; width: 100%; text-align: center;}
+      </style>
+	
+      <picture>
+        <source media="(min-width: 600px)" srcset="ironman12.jpg">
+        <source media="(min-width: 259px)" srcset="ironman1.jpg">
+        <img src="ironman.jpg" alt="a cute kitten">
+      </picture>
+</div>     
+    <div class="vertical">
+      <video class="horizontal" controls>
+        <source src="Iron Man .webm" type="video/webm">
+        <source src="Iron Man .mov" type="video/mp4">
+      </video>
+      <iframe class="horizontal" src="Iron Man .webm"></iframe>
+    </div>
+
+    <div class="vertical">
+      <object class="horizontalI" type="image/svg+xml" 
+                                   data="Moire_Circles.svg"></object>
+      <img class="horizontalI" src="Moire_Circles_100px.png">
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

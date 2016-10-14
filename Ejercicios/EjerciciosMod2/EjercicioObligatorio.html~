@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Página personal de Jóse Antonio Calle Calle</title>
+<link href='http://fonts.googleapis.com/css?family=Caesar+Dressing' rel='stylesheet' type='text/css'>
+<style type="text/css">
+body {
+	font-family: 'Caesar Dressing', cursive;
+	font-size: xx-large;
+	color:white;
+	
+}
+.vertical {
+  padding:3px;
+  background-color:black;
+  width:400px;
+  height:400px;
+  position: absolute;
+  top:  350px; 
+  left: 1400px;
+}
+.vertical1 {
+  padding:3px;
+  background-color:black;
+  width:400px;
+  height:400px;
+  position: absolute;
+  top:  200px; 
+  left: 100px;
+}
+.verticalVideo {
+  padding:3px;
+  background-color:black;
+  width:400px;
+  height:400px;
+  position: absolute;
+  top:  125px; 
+  left: 1400px;
+}
+.verticalImg {
+  padding:3px;
+  background-color:black;
+  width:400px;
+  height:400px;
+  position: absolute;
+  top:  700px; 
+  left: 100px;
+}
+h5{color:#000080; font-size:large; font-family:"Palatino";}
+h1{color:#000080; background:#ebd38a;}
+.box-blue {
+margin:0 0 55px;
+overflow:hidden;
+padding:10px;
+background-color:#8ac7eb;
+border:1px solid #afcde3;
+size:50px
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+.horizontalV {
+  background-color:white;
+  width:400px;
+
+}
+.horizontal {
+  border:1px solid white;
+  background-color:white;
+  width:200px;
+  height:196px;
+}
+
+</style>
+
+</head>
+
+<body background="fondo.jpg">
+<h1><center>&#73;&#82;&#79;&#78; &#77;&#65;&#78; LA PELICULA</center></h1>
+<section class="vertical1">
+	<section class="box-blue">
+
+<h5>Iron Man (titulada Iron Man: el hombre de hierro en Hispanoamérica) es una película de superhéroes estadounidense de 2008 basada en el personaje homónimo de Marvel Comics, producida por Marvel Studios y distribuida por Paramount Pictures.a Es la primera entrega del Universo cinematográfico de Marvel. La cinta fue dirigida por Jon Favreau, con un guion de Mark Fergus, Hawk Ostby, Art Marcum y Matt Holloway. Es protagonizada por Robert Downey Jr., Terrence Howard, Jeff Bridges, Shaun Toub y Gwyneth Paltrow. La trama gira en torno a Tony Stark, un empresario e ingeniero, que construye un exoesqueleto motorizado y se convierte en Iron Man, un superhéroe tecnológicamente avanzado.<h5>
+<style>
+        picture {display: block; width: 100%; text-align: center;}
+      </style>
+    <object class="horizontal" type="image/svg+xml" 
+                                   data="Moire_Circles.svg"></object>
+	<img src="ironman2.BMP" width="150" height="196" alt="Louis-Francois Bertin - Ingres"/>
+	</section>
+    
+</section>
+
+<section class="verticalVideo">
+ <video class="horizontalV"controls>
+    <source src="IronMan3.webm" type="video/webm">
+</video>
+</section>
+<section class="vertical">
+<h1>Iron Man 3.<h1>
+	<section class="box-blue">
+		
+<h5>En estos tiempos en los que el cine de entretenimiento está tan diluido por la necesidad de generar franquicias explotables a todos los niveles --videojuegos, cómics, series, juguetes, parques de atracciones...-- y no hace falta esperar al estreno de una película para anunciar la secuela, se agradece cierta incertidumbre en torno al futuro de Iron Man. A falta de unos días para que llegue a los cines de EE.UU., 'Iron Man 3' (Shane Black, 2013) está arrasando en la taquilla internacional y teniendo en cuenta el éxito de la marca de Marvel (y Disney) lo más probable es que la saga continúe, pero ahora mismo no hay nada seguro. Y eso le sienta bien a la última entrega.<h5>
+	</section>
+    
+</section>
+
+
+</body>
+</html>
