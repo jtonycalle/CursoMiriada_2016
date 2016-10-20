@@ -379,18 +379,23 @@ https://www.google.com/fonts#UsePlace:use/Collection:Roboto.</blockquote>
     <!--<script src="js/echart/green.js"></script>-->
     
     <script>
-	var res;
-    	$.ajax({
-        	type: 'POST',
-        	url: 'https://www.sicoes.gob.bo/portal/contrataciones/operacion2.php',
-        	data: {opetpo: 'convNacional', tpoope:'Simple', time: 1476457909469},
-        	dataType: "json",
-        	async: false,
-        	success: function (data) {
-            		res = data;
-console.log(res);
-        	}
-    	});
+	
+console.log("paso1");
+var res;
+    $.ajax({
+console.log("paso1");
+        type: 'POST',
+        url: '/portal/clasificadores/operacion2.php',
+        data: {opetpo: 'convNacional', tpoope: 'Simple', time: '1476733624079'},
+        dataType: "json",
+        async: false,
+        success: function (data) {
+            res = data;
+console.log("paso1");
+        }
+    });
+   
+</script>
 	
        // var myChart9 = echarts.init(document.getElementById('mainb'), theme);
         //myChart9.setOption({
